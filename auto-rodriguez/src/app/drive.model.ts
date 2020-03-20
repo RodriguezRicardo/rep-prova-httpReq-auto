@@ -1,9 +1,5 @@
 export class Drive
 {
-  constructor (
-    public tipo: string,
-    public descrizione : string,
-    public tariffa : string,
-    public valutazionemedia : string)
+  constructor (public tipo: String, public descrizione : String, public tariffa : String, public valutazionemedia : String)
   {}
 }
